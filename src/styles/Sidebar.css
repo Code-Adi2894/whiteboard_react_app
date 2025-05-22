@@ -1,0 +1,78 @@
+.sidebar {
+  width: 50px;
+  border: 1px solid black;
+  margin-right: 0.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.sidebar-icon-container,
+.shape-icon-container {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+.shape-selection-container {
+  height: max-content;
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
+  position: absolute;
+  left: 54px;
+  top: 90px;
+  border-radius: 5px;
+}
+
+#pencil-tool {
+  background-image: url("../assets/icons/pencil.svg");
+}
+
+#shapes-tool {
+  /* background-image: url("../assets/icons/shapes.svg"); */
+}
+
+#text-tool {
+  background-image: url("../assets/icons/text.svg");
+}
+
+#eraser-tool {
+  background-image: url("../assets/icons/eraser.svg");
+}
+
+#upload-tool {
+  background-image: url("../assets/icons/upload.svg");
+}
+
+#download-tool {
+  background-image: url("../assets/icons/download.svg");
+}
+
+#undo-tool {
+  background-image: url("../assets/icons/undo.svg");
+}
+
+#redo-tool {
+  background-image: url("../assets/icons/undo.svg");
+  transform: scaleX(-1);
+}
+
+#rectangle-tool {
+  background-image: url("../assets/icons/rectangle.svg");
+  /* margin-bottom: 10px; */
+}
+
+#circle-tool {
+  background-image: url("../assets/icons/circle.svg");
+  /* margin-bottom: 10px; */
+}
+
+#triangle-tool {
+  background-image: url("../assets/icons/triangle.svg");
+}
